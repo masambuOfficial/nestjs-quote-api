@@ -1,4 +1,5 @@
+/* eslint-disable prettier/prettier */
 import { PartialType } from '@nestjs/mapped-types';
-import { CreateAuthorDto } from './create-quote.dto';
+import { CreateQuoteDto } from './create-quote.dto';
 
-export class UpdateAuthorDto extends PartialType(CreateAuthorDto) {}
+export class UpdateAuthorDto extends PartialType(CreateQuoteDto) {}

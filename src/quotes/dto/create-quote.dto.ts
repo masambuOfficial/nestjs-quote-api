@@ -1,1 +1,4 @@
-export class CreateAuthorDto {}
+/* eslint-disable prettier/prettier */
+export class CreateQuoteDto {
+    
+};
